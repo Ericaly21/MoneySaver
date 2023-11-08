@@ -1,19 +1,19 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Subscriptions = () => {
+const Summary = () => {
   let navigate = useNavigate();
   
   const handleAddClick = () => {
-    navigate("/add-subscription");
+    navigate("/add-expense");
   };
 
   return (
     <div>
-      {/* List of subscriptions */}
+      {/* List of Summary */}
       <button onClick={handleAddClick}>+</button>
     </div>
   );
 };
 
-export default Subscriptions; 
+export default Summary; 
