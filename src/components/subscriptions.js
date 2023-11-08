@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from 'react-bootstrap'; // assuming you are using react-bootstrap
+import { Button } from 'react-bootstrap';
 
 const Subscriptions = () => {
   const navigate = useNavigate();
@@ -8,15 +8,13 @@ const Subscriptions = () => {
   // Function to handle the addition of a new subscription
   const handleAddSubscription = () => {
     // Logic to add a new subscription
-    // ...
+    // create form somehow?
 
-    // Navigate to a different route, if needed
-    // navigate('/some-path');
   };
 
   // Function to handle a specific navigation, if necessary
   const goToSomePage = () => {
-    navigate('/some-path');
+    navigate('/home');
   };
 
   // Render your component with UI for managing subscriptions
