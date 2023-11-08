@@ -16,4 +16,4 @@ const Subscriptions = () => {
   );
 };
 
-export default Subscriptions;
+export default Subscriptions; 
