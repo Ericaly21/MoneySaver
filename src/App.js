@@ -31,7 +31,6 @@ import Expenses from './components/Expenses';
 import AddExpense from './components/AddExpense';
 import Summary from './components/Summary';
 import './App.css';
-
 const App = () => {
   return (
     <Router>
